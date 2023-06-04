@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../IMG/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/STYLE.CSS">
+    <title>Document</title>
+</head>
+<body>
+    <header class="menu">
+        <nav class="menu__nav">
+            <a class="nav__logotipo" href="../INDEX.HTML">Logotipo</a>
+            <ul class="nav__ul">
+                <li><a class="nav__ul__li__a" href="../INDEX.HTML" id="home">Pagina Inicial</a></li>
+                <li><a class="nav__ul__li__a" href="IAgenerativas.HTML">IA generativas</a></li>
+                <li><a class="nav__ul__li__a" href="agriculturasustentavel.HTML">Agricultura Sustentável</a></li>
+                <li><a class="nav__ul__li__a" href="cultivoeficiente.HTML">Cultivo eficiente</a></li>
+            </ul>
+            <a class="nav__botao" href="CONTATO.HTML">Contato</a>
+        </nav>
+    </header>
+
+    <main class="main-form">
+        <form action="processar_formulario.php" method="POST" class="form">
+            <h2 class="form__titulo">Entre em contato</h2>
+            <div class="form__field">
+                <label for="nome" class="form__label">Nome:</label>
+                <input type="text" id="nome" name="nome" required class="form__input" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form__field">
+                <label for="email" class="form__label">Email:</label>
+                <input type="email" id="email" name="email" required class="form__input" placeholder="Digite seu email">
+            </div>
+            
+            <div class="form__field">
+                <label for="telefone" class="form__label">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required class="form__input" placeholder="Digite seu numero de telefone">
+            </div>
+
+            <div class="form__field">
+                <label for="assunto" class="form__label">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" required class="form__input" placeholder="Escreva o assunto em questão">
+            </div>
+            
+            <div class="form__field">
+                <label for="mensagem" class="form__label">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" cols="30" required class="form__textarea" placeholder="Digite a sua mensagem"></textarea>
+            </div>
+            
+            <div class="form__field">
+                <label for="cidade" class="form__label">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" class="form__input" placeholder="Digite sua cidade">
+            </div>
+
+            <div class="form__field">
+                <label for="estado" class="form__label">Estado:</label>
+                <input type="text" id="estado" name="estado" class="form__input" placeholder="Digite seu estado">
+            </div>
+
+            <div class="form__caixa">
+                <div class="form__field form__caixa__field">
+                    <label for="interesse_sustentabilidade" class="form__label">Interesse em Agricultura Sustentável:</label>
+                    <input type="checkbox" id="interesse_sustentabilidade" name="interesse_sustentabilidade" class="form__checkbox">
+                </div>
+
+                <div class="form__field form__caixa__field">
+                    <label for="conhecimento_IA" class="form__label">Conhecimento em IA Generativas:</label>
+                    <input type="checkbox" id="conhecimento_IA" name="conhecimento_IA" class="form__checkbox">
+                </div>
+            </div>
+            
+            <div class="form__field">
+                <label for="comentarios" class="form__label">Sugestões ou Comentários:</label>
+                <textarea id="comentarios" name="comentarios" rows="5" cols="30" class="form__textarea" placeholder="Deixe seu comentario ou sugestão"></textarea>
+            </div>
+            
+            <input type="submit" value="Enviar" class="form__submit">
+        </form>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__dados">
+            <a class="nav__logotipo" href="INDEX.HTML" id="rodape__logo">Logotipo</a>
+            <table class="rodape__dados__table">
+                <thead class="rodape__dados__table__thead">
+                    <tr class="rodape__dados__table__thead__tr">
+                        <th class="rodape__dados__table__thead__tr__th">Nome:</th>
+                        <th class="rodape__dados__table__thead__tr__th">RM:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="rodape__dados__table__tbody__tr__td">Alejandro Rabelo</td>
+                        <td class="rodape__dados__table__tbody__tr__td">93606</td>
+                    </tr>
+                    <tr>
+                        <td class="rodape__dados__table__tbody__tr__td">Cristian Alvaro Condori Paucara</td>
+                        <td class="rodape__dados__table__tbody__tr__td">550509</td>
+                    </tr>
+                    <tr>
+                        <td class="rodape__dados__table__tbody__tr__td">Diego Seiti Ogita Iacabo</td>
+                        <td class="rodape__dados__table__tbody__tr__td">551289</td>
+                    </tr>
+                    <tr>
+                        <td class="rodape__dados__table__tbody__tr__td">João Lucas Marques Costa</td>
+                        <td class="rodape__dados__table__tbody__tr__td">98376</td>
+                    </tr>
+                    <tr>
+                        <td class="rodape__dados__table__tbody__tr__td">Luiz Felipe Azevedo de Oliveira</td>
+                        <td class="rodape__dados__table__tbody__tr__td">550348</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="rodape__materia rodape__dados">
+            <p class="rodape__materia__p">FIAP - Global Solution - Responsive Web Development</p>
+        </div>
+    </footer>
+</body>
+</html>
