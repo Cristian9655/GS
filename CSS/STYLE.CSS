@@ -142,8 +142,8 @@ body {
 .main-container__section1 {
     display: flex;
     justify-content: space-around;
-    height: 90vh;
-    padding: 0 150px;
+    height: auto;
+    padding: 60px 150px;
     background-color: var(--cor1);
 }
 
@@ -393,7 +393,7 @@ body {
 }
 
 .main-IAgenerativas__section2__imagen {
-    min-width: 500px;
+    min-width: 45%;
     border-radius: 15px;
     overflow: hidden;
     margin-left: 30px;

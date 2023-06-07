@@ -29,11 +29,3 @@ function verificarActive(item, content, content_actived) {
     content.style.height = content.scrollHeight + 10 + "px";
   }
 }
-
-const hamburguer = document.querySelector('.hamburguer')
-const navMenu = document.querySelector('.nav__ul')
-
-hamburguer.addEventListener("click", () =>{
-  hamburguer.classList.toggle('active');
-  navMenu.classList.toggle('active');
-})

@@ -8,7 +8,7 @@
 
 93606 - Alejandro Rabelo
 
-550509 - CRISTIAN ALVARO CONDORI PAUCARA
+550509 - Cristian Alvaro Condori Paucara
 
 550348 - Luiz Felipe Azevedo de Oliveira
 
